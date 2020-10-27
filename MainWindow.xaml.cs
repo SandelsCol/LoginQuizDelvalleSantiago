@@ -83,7 +83,7 @@ namespace LoginQuizDelvalleSantiago
 
             if(pray==true && play==true)
             {
-                MessageBox.Show("Bienvenido");
+                MessageBox.Show("Bienvenido de nuevo"+""+ LoginUsername.Text + "\n" + "Disfruta de todos nuestros servicios");
             }
             else
             {

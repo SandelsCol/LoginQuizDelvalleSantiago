@@ -6,4 +6,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="descarga.png" />
+    <None Remove="steam-3801263-1024x768.jpg" />
+    <None Remove="user-icon-vector.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="descarga.png" />
+    <Resource Include="steam-3801263-1024x768.jpg" />
+    <Resource Include="user-icon-vector.jpg" />
+  </ItemGroup>
+
 </Project>
